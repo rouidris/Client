@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@arcgis/core": "4.19",
     "@mapbox/mapbox-gl-draw": "^1.4.1",
     "@mapbox/mapbox-gl-geocoder": "^5.0.1",
     "@mapbox/search-js-core": "^1.0.0-beta.18",
@@ -26,9 +25,6 @@
     "react-router-dom": "^6.3.0",
     "react-scripts": "^5.0.1",
     "react-toastify": "^9.0.5",
-    "socket.io-client": "^4.7.2",
-    "vite": "^4.4.11",
-    "vite-tsconfig-paths": "^4.2.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
