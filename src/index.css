@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: #31e5cd;  /* fallback for old browsers */
+      background: linear-gradient(to right, #54da9e, #047373);  /* Chrome 10-25, Safari 5.1-6 */
+    min-height: 100vh;
+
+  }
+
+
+}

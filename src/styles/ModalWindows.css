@@ -1,0 +1,41 @@
+/* Ваш стиль для модального окна */
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    margin: 20px;
+    right: 0;
+    bottom: 0;
+    height: 300px;
+    width: 300px; /* Установите размер по вашему усмотрению */
+    background-color: rgba(126, 210, 236, 0.3); /* Нежный синий цвет с прозрачностью */
+    border-radius: 10px; /* Закругленные углы */
+    border: 2px solid rgba(255, 255, 255, 0.5); /* Белая граница с прозрачностью */
+    animation: gradientAnimation 10s linear infinite;
+}
+.input-text{
+    border-radius: 10px;
+    text-align: center;
+}
+.modal-content {
+    padding: 20px;
+    text-align: center;
+    font-size: 16px; /* Уменьшите размер шрифта по вашему усмотрению */
+}
+
+.close {
+    color: #fff;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #000;
+}
+
+/* Другие стили, как вам угодно */
